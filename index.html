@@ -59,10 +59,40 @@ body::after{
     padding:0 20px;
 }
 
+/* TOP NAVIGATION */
+.top-nav{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:22px 0 0;
+    position:relative;
+    z-index:10;
+}
+
+.brand{
+    font-size:16px;
+    font-weight:800;
+    letter-spacing:-.02em;
+    color:#fff;
+}
+
+.nav-label{
+    font-size:12px;
+    font-weight:600;
+    color:#a9a3b3;
+    letter-spacing:.03em;
+}
+
+.nav-label span{
+    color:#a855f7;
+    margin:0 5px;
+}
+
 /* HERO */
 .hero{
-    min-height:100vh;
-    min-height:100svh;
+    min-height:calc(100vh - 65px);
+    min-height:calc(100svh - 65px);
     display:flex;
     align-items:center;
     justify-content:center;
@@ -108,6 +138,7 @@ body::after{
         opacity:1;
         transform:scale(1);
     }
+
     50%{
         opacity:.55;
         transform:scale(.75);
@@ -231,12 +262,13 @@ h1{
         inset 0 1px rgba(255,255,255,.25);
 
     overflow:hidden;
+
     transition:
         transform .25s ease,
         box-shadow .25s ease;
 }
 
-/* Shine */
+/* Shine animation */
 .offer-btn::before{
     content:"";
     position:absolute;
@@ -396,8 +428,24 @@ h1{
         padding:0 16px;
     }
 
+    .top-nav{
+        padding-top:18px;
+    }
+
+    .brand{
+        font-size:14px;
+    }
+
+    .nav-label{
+        font-size:10px;
+    }
+
+    .nav-label span{
+        margin:0 3px;
+    }
+
     .hero{
-        min-height:100svh;
+        min-height:calc(100svh - 55px);
         padding:45px 0 35px;
     }
 
@@ -459,6 +507,14 @@ h1{
 /* Very small phones */
 @media(max-width:380px){
 
+    .brand{
+        font-size:13px;
+    }
+
+    .nav-label{
+        font-size:9px;
+    }
+
     h1{
         font-size:43px;
     }
@@ -475,7 +531,15 @@ h1{
         padding:24px 16px 20px;
     }
 }
-</style></head><body><div class="container"><section class="hero"><div class="hero-content"><div class="tag">
+</style></head><body><div class="container"><!-- TOP BRAND BAR --><nav class="top-nav"><div class="brand">
+    DropMeNow.xyz
+</div>
+
+<div class="nav-label">
+    Premium Domain <span>•</span> For Sale
+</div>
+
+</nav><section class="hero"><div class="hero-content"><div class="tag">
 <span class="tag-dot"></span>
 Premium Domain Name Available
 </div><h1>DropMeNow.xyz</h1><p class="subtitle">
