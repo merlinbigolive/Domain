@@ -769,7 +769,9 @@
     @media (max-width: 760px) {
 
       .nav {
-        padding: 19px 0;
+        position: relative;
+        min-height: 58px;
+        padding: 16px 0;
       }
 
       .logo {
@@ -777,8 +779,23 @@
       }
 
       .status {
-        padding: 7px 10px;
-        font-size: 10px;
+        position: absolute;
+        top: 12px;
+        right: 0;
+        max-width: 58vw;
+        padding: 6px 9px;
+        font-size: clamp(8px, 2.5vw, 10px);
+        line-height: 1.2;
+        white-space: normal;
+        text-align: center;
+        justify-content: center;
+        overflow-wrap: anywhere;
+      }
+
+      .status-dot {
+        width: 6px;
+        height: 6px;
+        flex: 0 0 6px;
       }
 
       .hero {
@@ -840,6 +857,55 @@
 
       footer {
         margin-top: 80px;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .container, .nav {
+        width: min(94%, 100%);
+      }
+
+      .hero {
+        width: min(94%, 100%);
+        margin-top: 42px;
+        padding: 0 6px;
+      }
+
+      h1 {
+        width: 100%;
+        max-width: 100%;
+        font-size: clamp(40px, 13vw, 68px);
+        line-height: 1;
+        letter-spacing: -2px;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+      }
+
+      .lead {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 4px;
+      }
+
+      .actions {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .shine-btn {
+        width: min(100%, 330px);
+        min-height: 54px;
+      }
+
+      .domain-display {
+        width: 100%;
+        padding: 18px 12px;
+        font-size: clamp(20px, 7vw, 28px);
+        line-height: 1.2;
+        letter-spacing: -0.5px;
+        overflow-wrap: anywhere;
+        word-break: break-word;
       }
     }
 
