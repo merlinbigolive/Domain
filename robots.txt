@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://begrow.in/sitemap.xml
+Sitemap: https://dropmenow.xyz/sitemap.xml
