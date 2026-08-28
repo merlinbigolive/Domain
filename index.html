@@ -1,236 +1,557 @@
 <!DOCTYPE html><html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DropMeNow.xyz - Premium Domain For Sale</title><meta name="description" content="Acquire DropMeNow.xyz, a premium brandable domain ideal for logistics, delivery, courier, and e-commerce businesses. Available now for $1,700 USD."><style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>DropMeNow.xyz — Premium Domain For Sale | $1,700 USD</title><meta name="description" content="DropMeNow.xyz is a premium brandable domain for delivery, logistics, courier, shipping and e-commerce businesses. Available for $1,700 USD."><meta name="robots" content="index, follow"><meta property="og:title" content="DropMeNow.xyz — Premium Domain For Sale">
+<meta property="og:description" content="Premium delivery and logistics domain available for $1,700 USD.">
+<meta property="og:type" content="website"><style>
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Inter,Arial,sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
 }
 
 body{
-background:
-radial-gradient(circle at top,#7c3aed 0%,transparent 40%),
-linear-gradient(135deg,#080810,#111827,#1e1b4b);
-color:#fff;
-min-height:100vh;
-overflow-x:hidden;
+    font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+    color:#fff;
+    background:#07050d;
+    min-height:100vh;
+    overflow-x:hidden;
+}
+
+/* Purple atmospheric glow */
+body::before{
+    content:"";
+    position:fixed;
+    width:650px;
+    height:650px;
+    top:-350px;
+    left:50%;
+    transform:translateX(-50%);
+    background:#7c3aed;
+    opacity:.28;
+    filter:blur(150px);
+    border-radius:50%;
+    pointer-events:none;
+}
+
+body::after{
+    content:"";
+    position:fixed;
+    width:450px;
+    height:450px;
+    bottom:-250px;
+    right:-180px;
+    background:#9333ea;
+    opacity:.14;
+    filter:blur(130px);
+    border-radius:50%;
+    pointer-events:none;
 }
 
 .container{
-max-width:1100px;
-margin:auto;
-padding:30px 20px;
+    width:100%;
+    max-width:1100px;
+    margin:auto;
+    padding:0 20px;
 }
 
+/* HERO */
 .hero{
-text-align:center;
-padding:100px 20px;
+    min-height:100vh;
+    min-height:100svh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:60px 0;
+    position:relative;
 }
 
+.hero-content{
+    width:100%;
+}
+
+/* Top badge */
 .tag{
-display:inline-block;
-padding:10px 18px;
-border:1px solid rgba(255,255,255,.2);
-border-radius:999px;
-background:rgba(255,255,255,.05);
-backdrop-filter:blur(10px);
-margin-bottom:25px;
-font-size:14px;
+    display:inline-flex;
+    align-items:center;
+    gap:9px;
+    padding:9px 16px;
+    border:1px solid rgba(192,132,252,.28);
+    border-radius:999px;
+    background:rgba(139,92,246,.08);
+    color:#ddd6fe;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    box-shadow:0 0 25px rgba(139,92,246,.08);
 }
 
+.tag-dot{
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    background:#c084fc;
+    box-shadow:
+        0 0 8px #c084fc,
+        0 0 18px #a855f7;
+    animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+    0%,100%{
+        opacity:1;
+        transform:scale(1);
+    }
+    50%{
+        opacity:.55;
+        transform:scale(.75);
+    }
+}
+
+/* Domain */
 h1{
-font-size:clamp(50px,8vw,95px);
-font-weight:800;
-line-height:1;
-margin-bottom:20px;
+    margin:28px 0 18px;
+    font-size:clamp(48px,9vw,94px);
+    line-height:.95;
+    letter-spacing:-.065em;
+    font-weight:850;
+
+    background:linear-gradient(
+        100deg,
+        #ffffff 15%,
+        #f3e8ff 45%,
+        #c084fc 75%,
+        #9333ea 100%
+    );
+
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+
+    text-shadow:0 0 50px rgba(168,85,247,.18);
 }
 
 .subtitle{
-max-width:700px;
-margin:auto;
-font-size:20px;
-opacity:.85;
-line-height:1.7;
+    max-width:700px;
+    margin:0 auto;
+    color:#bdb8c8;
+    font-size:18px;
+    line-height:1.7;
 }
 
+/* PRICE CARD */
 .price-card{
-max-width:500px;
-margin:50px auto;
-padding:35px;
-background:rgba(255,255,255,.08);
-backdrop-filter:blur(14px);
-border:1px solid rgba(255,255,255,.12);
-border-radius:24px;
+    width:100%;
+    max-width:510px;
+    margin:42px auto 0;
+    padding:34px 30px 30px;
+
+    background:linear-gradient(
+        145deg,
+        rgba(255,255,255,.09),
+        rgba(255,255,255,.035)
+    );
+
+    border:1px solid rgba(255,255,255,.13);
+    border-radius:25px;
+
+    backdrop-filter:blur(20px);
+    -webkit-backdrop-filter:blur(20px);
+
+    box-shadow:
+        0 25px 80px rgba(0,0,0,.45),
+        inset 0 1px rgba(255,255,255,.08);
 }
 
 .price-label{
-font-size:15px;
-letter-spacing:2px;
-opacity:.7;
-text-transform:uppercase;
+    color:#9d98a8;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.18em;
+    text-transform:uppercase;
 }
 
 .price{
-font-size:62px;
-font-weight:800;
-margin:15px 0;
-color:#c084fc;
+    margin:9px 0 4px;
+    color:#d8b4fe;
+    font-size:58px;
+    line-height:1;
+    font-weight:850;
+    letter-spacing:-.045em;
+    text-shadow:0 0 35px rgba(168,85,247,.3);
 }
 
+.price-note{
+    color:#918b9c;
+    font-size:13px;
+    margin-top:10px;
+}
+
+/* BUTTON */
 .buttons{
-display:flex;
-gap:15px;
-justify-content:center;
-flex-wrap:wrap;
-margin-top:25px;
+    margin-top:27px;
 }
 
-.btn{
-padding:16px 34px;
-border-radius:14px;
-text-decoration:none;
-font-weight:700;
-transition:.3s;
-position:relative;
-overflow:hidden;
+.offer-btn{
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    width:100%;
+    min-height:59px;
+
+    border-radius:15px;
+
+    color:#fff;
+    text-decoration:none;
+
+    font-size:15px;
+    font-weight:800;
+    letter-spacing:.07em;
+
+    background:linear-gradient(
+        110deg,
+        #6d28d9,
+        #8b5cf6 42%,
+        #a855f7 65%,
+        #7c3aed
+    );
+
+    border:1px solid rgba(255,255,255,.18);
+
+    box-shadow:
+        0 10px 35px rgba(124,58,237,.35),
+        inset 0 1px rgba(255,255,255,.25);
+
+    overflow:hidden;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
 }
 
-.buy{
-background:linear-gradient(135deg,#9333ea,#c084fc);
-color:white;
-box-shadow:0 0 30px rgba(192,132,252,.45);
+/* Shine */
+.offer-btn::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:-75%;
+    width:38%;
+    height:100%;
+
+    transform:skewX(-22deg);
+
+    background:linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.75),
+        transparent
+    );
+
+    animation:buttonShine 2.6s infinite;
 }
 
-.buy:hover{
-transform:translateY(-3px);
+@keyframes buttonShine{
+    0%{
+        left:-75%;
+    }
+
+    55%,100%{
+        left:140%;
+    }
 }
 
-.offer{
-border:2px solid #a855f7;
-color:white;
-background:transparent;
+.offer-btn span{
+    position:relative;
+    z-index:2;
 }
 
-.offer:before{
-content:"";
-position:absolute;
-top:0;
-left:-150%;
-width:60%;
-height:100%;
-background:linear-gradient(
-90deg,
-transparent,
-rgba(255,255,255,.6),
-transparent
-);
-animation:shine 2.8s infinite;
+.offer-btn:hover{
+    transform:translateY(-3px);
+
+    box-shadow:
+        0 15px 45px rgba(139,92,246,.5),
+        0 0 30px rgba(168,85,247,.18),
+        inset 0 1px rgba(255,255,255,.3);
 }
 
-@keyframes shine{
-100%{
-left:180%;
-}
+.offer-btn:active{
+    transform:translateY(0);
 }
 
+.secure{
+    margin-top:13px;
+    color:#777181;
+    font-size:11px;
+}
+
+/* SECTIONS */
 .section{
-margin-top:80px;
+    padding:70px 0 30px;
 }
 
-.section h2{
-text-align:center;
-font-size:38px;
-margin-bottom:40px;
+.section-title{
+    text-align:center;
+    margin-bottom:35px;
 }
 
+.section-title h2{
+    font-size:36px;
+    letter-spacing:-.035em;
+    margin-bottom:10px;
+}
+
+.section-title p{
+    color:#85808f;
+    font-size:14px;
+}
+
+/* CARDS */
 .grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:17px;
 }
 
 .card{
-background:rgba(255,255,255,.05);
-border:1px solid rgba(255,255,255,.08);
-padding:25px;
-border-radius:18px;
+    padding:25px;
+    border-radius:18px;
+
+    background:rgba(255,255,255,.045);
+    border:1px solid rgba(255,255,255,.085);
+
+    transition:
+        transform .25s ease,
+        border-color .25s ease,
+        background .25s ease;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+    border-color:rgba(168,85,247,.35);
+    background:rgba(139,92,246,.07);
 }
 
 .card h3{
-margin-bottom:12px;
+    margin-bottom:10px;
+    font-size:17px;
 }
 
 .card p{
-opacity:.85;
-line-height:1.7;
+    color:#9c97a5;
+    font-size:14px;
+    line-height:1.65;
 }
 
+/* USE CASES */
+.use-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
+}
+
+.use-card{
+    padding:22px;
+    border-radius:16px;
+
+    background:linear-gradient(
+        145deg,
+        rgba(255,255,255,.06),
+        rgba(255,255,255,.025)
+    );
+
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.use-card h3{
+    font-size:15px;
+}
+
+/* FOOTER */
 .footer{
-text-align:center;
-padding:80px 20px 40px;
-opacity:.7;
+    margin-top:85px;
+    padding:35px 20px 40px;
+    text-align:center;
+
+    border-top:1px solid rgba(255,255,255,.07);
+
+    color:#706b78;
+    font-size:12px;
 }
 
-.highlight{
-color:#c084fc;
-font-weight:700;
+.footer strong{
+    color:#a78bfa;
 }
-</style></head>
-<body><div class="container"><section class="hero"><div class="tag">
-🚀 Premium Domain Name Available
+
+/* MOBILE */
+@media(max-width:700px){
+
+    .container{
+        padding:0 16px;
+    }
+
+    .hero{
+        min-height:100svh;
+        padding:45px 0 35px;
+    }
+
+    .tag{
+        font-size:10px;
+        padding:8px 13px;
+    }
+
+    h1{
+        font-size:clamp(45px,14vw,65px);
+        margin-top:24px;
+    }
+
+    .subtitle{
+        font-size:15px;
+        line-height:1.65;
+        padding:0 5px;
+    }
+
+    .price-card{
+        margin-top:32px;
+        padding:27px 20px 22px;
+        border-radius:21px;
+    }
+
+    .price{
+        font-size:46px;
+    }
+
+    .offer-btn{
+        min-height:56px;
+        font-size:14px;
+    }
+
+    .section{
+        padding-top:55px;
+    }
+
+    .section-title h2{
+        font-size:29px;
+    }
+
+    .grid,
+    .use-grid{
+        grid-template-columns:1fr;
+        gap:12px;
+    }
+
+    .card,
+    .use-card{
+        padding:21px;
+    }
+
+    .footer{
+        margin-top:60px;
+    }
+}
+
+/* Very small phones */
+@media(max-width:380px){
+
+    h1{
+        font-size:43px;
+    }
+
+    .price{
+        font-size:42px;
+    }
+
+    .subtitle{
+        font-size:14px;
+    }
+
+    .price-card{
+        padding:24px 16px 20px;
+    }
+}
+</style></head><body><div class="container"><section class="hero"><div class="hero-content"><div class="tag">
+<span class="tag-dot"></span>
+Premium Domain Name Available
 </div><h1>DropMeNow.xyz</h1><p class="subtitle">
-A powerful, action-oriented domain perfect for delivery services,
-logistics companies, courier startups, same-day shipping platforms,
-and next-generation e-commerce brands.
+A powerful, action-oriented domain perfect for
+delivery services, logistics companies, courier startups,
+same-day shipping platforms and modern e-commerce brands.
 </p><div class="price-card"><div class="price-label">
 Asking Price
 </div><div class="price">
 $1,700
-</div><div>
+</div><div class="price-note">
 Premium One-Time Acquisition
-</div><div class="buttons"><a href="YOUR_SEDO_LINK" class="btn buy">
-BUY NOW
-</a><a href="https://sedo.com/search/details/?domain=dropmenow.xyz " class="btn offer">
-MAKE OFFER
-</a></div></div></section><section class="section"><h2>Why DropMeNow.xyz?</h2><div class="grid"><div class="card">
+</div><div class="buttons"><a
+href="https://sedo.com/search/details/?domain=dropmenow.xyz"
+class="offer-btn"
+target="_blank"
+rel="noopener noreferrer"
+
+«»
+
+<span>SEND OFFER</span>
+</a>
+
+</div><div class="secure">
+Secure acquisition through Sedo
+</div></div></div></section><section class="section"><div class="section-title">
+<h2>Why DropMeNow.xyz?</h2>
+<p>A memorable name built for modern delivery businesses.</p>
+</div><div class="grid"><div class="card">
 <h3>Strong Branding</h3>
 <p>
-The name instantly creates urgency and action, making it memorable for customers.
+Direct, energetic and memorable wording that creates an immediate call-to-action feeling.
 </p>
 </div><div class="card">
 <h3>Delivery Focused</h3>
 <p>
-Perfect for courier, shipping, logistics, fulfillment and quick-commerce businesses.
+A natural fit for courier, logistics, shipping, fulfillment and quick-commerce businesses.
 </p>
 </div><div class="card">
 <h3>Easy To Remember</h3>
 <p>
-Short, direct and highly marketable for digital advertising campaigns.
+Simple pronunciation and strong recall make it suitable for digital marketing campaigns.
 </p>
 </div><div class="card">
 <h3>Global Potential</h3>
 <p>
-Suitable for startups and businesses targeting international markets.
+A flexible brand name that can work for startups and digital platforms targeting global markets.
 </p>
-</div></div></section><section class="section"><h2>Ideal Use Cases</h2><div class="grid"><div class="card">
+</div><div class="card">
+<h3>Action-Oriented</h3>
+<p>
+“Drop Me Now” communicates speed and action, making the name naturally suited to delivery.
+</p>
+</div><div class="card">
+<h3>Modern Extension</h3>
+<p>
+The .xyz extension gives the brand a modern, startup-friendly digital identity.
+</p>
+</div></div></section><section class="section"><div class="section-title">
+<h2>Ideal Use Cases</h2>
+<p>One domain. Multiple business possibilities.</p>
+</div><div class="use-grid"><div class="use-card">
 <h3>📦 Courier Services</h3>
-</div><div class="card">
+</div><div class="use-card">
 <h3>🚚 Logistics Platforms</h3>
-</div><div class="card">
+</div><div class="use-card">
 <h3>🛒 E-Commerce Delivery</h3>
-</div><div class="card">
+</div><div class="use-card">
 <h3>⚡ Quick Commerce</h3>
-</div><div class="card">
+</div><div class="use-card">
 <h3>🏍 Last-Mile Delivery</h3>
-</div><div class="card">
+</div><div class="use-card">
 <h3>📍 Local Shipping Apps</h3>
-</div></div></section><div class="footer"><p>
-Secure domain acquisition through
-<span class="highlight">Sedo</span>.
+</div></div></section><footer class="footer"><p>
+Premium domain available through <strong>Sedo</strong>.
 </p><br><p>
-© 2026 DropMeNow.xyz • Premium Domain Name For Sale
-</p></div></div></body>
+© 2026 DropMeNow.xyz · Premium Domain Name For Sale
+</p></footer></div></body>
 </html>
